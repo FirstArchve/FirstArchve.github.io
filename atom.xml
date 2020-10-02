@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://firstarchve.gitee.io/</id>
+    <id>https://firstarchve.gitub.io/</id>
     <title>FirstArchve的个人博客</title>
-    <updated>2020-10-02T10:18:55.719Z</updated>
+    <updated>2020-10-02T10:20:27.527Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://firstarchve.gitee.io/"/>
-    <link rel="self" href="https://firstarchve.gitee.io/atom.xml"/>
+    <link rel="alternate" href="https://firstarchve.gitub.io/"/>
+    <link rel="self" href="https://firstarchve.gitub.io/atom.xml"/>
     <subtitle>死宅一枚~~</subtitle>
-    <logo>https://firstarchve.gitee.io/images/avatar.png</logo>
-    <icon>https://firstarchve.gitee.io/favicon.ico</icon>
+    <logo>https://firstarchve.gitub.io/images/avatar.png</logo>
+    <icon>https://firstarchve.gitub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, FirstArchve的个人博客</rights>
     <entry>
         <title type="html"><![CDATA[如何在旧的mac上安装不兼容的新系统?]]></title>
-        <id>https://firstarchve.gitee.io/post/ru-he-zai-jiu-de-mac-shang-an-zhuang-bu-jian-rong-de-xin-xi-tong/</id>
-        <link href="https://firstarchve.gitee.io/post/ru-he-zai-jiu-de-mac-shang-an-zhuang-bu-jian-rong-de-xin-xi-tong/">
+        <id>https://firstarchve.gitub.io/post/ru-he-zai-jiu-de-mac-shang-an-zhuang-bu-jian-rong-de-xin-xi-tong/</id>
+        <link href="https://firstarchve.gitub.io/post/ru-he-zai-jiu-de-mac-shang-an-zhuang-bu-jian-rong-de-xin-xi-tong/">
         </link>
         <updated>2020-10-02T02:41:54.000Z</updated>
         <content type="html"><![CDATA[<h2 align="center">支持型号：</h2>
@@ -82,61 +82,61 @@ https://github.com/rmc-team/osx-patcher<br>
 下载macOS-Patcher访问这个网站：<br>
 https://github.com/rmc-team/macos-patcher</p>
 <p>进入网站之后点这个：<br>
-<img src="https://firstarchve.gitee.io//post-images/1601607444556.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601607444556.webp" alt="" loading="lazy"><br>
 再点击这个：<br>
-<img src="https://firstarchve.gitee.io//post-images/1601607601616.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601607601616.webp" alt="" loading="lazy"><br>
 然后根据图中下载<br>
 macOS-Patcher：<br>
-<img src="https://firstarchve.gitee.io//post-images/1601607675899.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601607675899.webp" alt="" loading="lazy"><br>
 OSX-Patcher：<br>
-<img src="https://firstarchve.gitee.io//post-images/1601607803283.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601607803283.webp" alt="" loading="lazy"><br>
 然后等待漫长的下载......</p>
 <h2>第二步：准备其它材料</h2>
 <p>u盘（至少8g，速度越快越好，速度不能低于20m/s）<br>
 一个macOS系统（可以先给你的mac安上它支持的最新的系统，或者黑苹果）<br>
 你需要用来装系统的mac电脑（废话）<br>
 系统安装镜像(需要 .app格式，如果下载下来是其它的格式，需要把它变成.app格式，方法如下图)<br>
-<img src="https://firstarchve.gitee.io//post-images/1601607991050.jpg" alt="" loading="lazy"></p>
+<img src="https://firstarchve.gitub.io//post-images/1601607991050.jpg" alt="" loading="lazy"></p>
 <h2>第三步：制作可引导安装器。</h2>
 <p>将u盘插入装有macOS的电脑。<br>
 打开启动台-管理工具-磁盘工具，在磁盘工具里找到你的u盘，然后看图操作<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608103420.webp" alt="" loading="lazy"><br>
-<img src="https://firstarchve.gitee.io//post-images/1601608137058.webp" alt="" loading="lazy"><br>
-<img src="https://firstarchve.gitee.io//post-images/1601608183074.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608103420.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608137058.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608183074.webp" alt="" loading="lazy"><br>
 然后关掉磁盘工具，找到你第一步下载下来的东西，是个压缩包，先解压。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608242650.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608242650.webp" alt="" loading="lazy"><br>
 打开解压出来的文件夹。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608275777.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608275777.webp" alt="" loading="lazy"><br>
 然后我们打开终端，输入sudo chmod +x (注意x后面有空格)，然后把这个.sh的文件拖进终端，它会生成一条命令，然后回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608307075.webp" alt="" loading="lazy"><br>
-<img src="https://firstarchve.gitee.io//post-images/1601608328967.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608307075.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608328967.webp" alt="" loading="lazy"><br>
 然后会让你输入密码，但是你输的密码你自己看不见，就是盲输（用过linux的人表示非常正常），然后你会看到这样的<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608367048.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608367048.webp" alt="" loading="lazy"><br>
 然后输入sudo (注意有空格),然后再次将.sh文件拖进终端，回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608397476.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608397476.webp" alt="" loading="lazy"><br>
 输入1，然后回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608431699.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608431699.webp" alt="" loading="lazy"><br>
 这个时候，将准备好的mac安装镜像拖进去，回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608463460.webp" alt="" loading="lazy"><br>
-<img src="https://firstarchve.gitee.io//post-images/1601608491380.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608463460.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608491380.webp" alt="" loading="lazy"><br>
 接着它会显示磁盘分区列表，在里面找到你优盘的名字（名字是你抹掉优盘时输的），接着输入你优盘在列表中的编号，回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608533502.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608533502.webp" alt="" loading="lazy"><br>
 在出现蓝色的Thank you for using OS X Patcher.时，就完成了。这个过程比较长，短则几分钟，长则半小时。</p>
 <h2>第四步：安装</h2>
 <p>将制作好的可引导安装器（就是你的优盘），插入你的mac（请不要想歪，我还是白色的）。<br>
 开机，并长按option键，进入引导菜单，用左右键选择黄色的优盘图标，并回车。<br>
 等待及其漫长的开机过程，你就能启动至安装器了，接下来的步骤与普通的重装系统步骤一样，不再讲述，有需要的可以问度娘。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608603910.webp" alt="" loading="lazy"></p>
+<img src="https://firstarchve.gitub.io//post-images/1601608603910.webp" alt="" loading="lazy"></p>
 <h2>第五步：破解系统</h2>
 <p>在安装完成之后系统会自动重启，这个时候也一直按住option键，重新启动至安装器。<br>
 这次什么也不干，直接在顶栏上选择实用工具-终端。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608659420.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608659420.webp" alt="" loading="lazy"><br>
 输入命令patch，回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608681897.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608681897.webp" alt="" loading="lazy"><br>
 然后输入1，然后回车。<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608702739.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitub.io//post-images/1601608702739.webp" alt="" loading="lazy"><br>
 接着，它又会列出mac上的磁盘分区，然后输入你安装了系统的分区的编号(注意是安装了系统的磁盘，而不是u盘！)。然后它就会开始破解，请耐心等待！<br>
-<img src="https://firstarchve.gitee.io//post-images/1601608738121.webp" alt="" loading="lazy"></p>
+<img src="https://firstarchve.gitub.io//post-images/1601608738121.webp" alt="" loading="lazy"></p>
 <h2>恭喜你已经成功了！现在重新启动电脑，你应该就会进入macOS X的激活了，好好享受吧！</h2>
 <h2 align="center">后记</h2>
 <p>如果没看懂，却有有需求的话，就也可以去看一下我在b站的视频，会更详细:</p>
