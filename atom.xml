@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://firstarchve.github.io</id>
     <title>FirstArchve</title>
-    <updated>2020-10-02T03:26:23.910Z</updated>
+    <updated>2020-10-02T03:30:03.684Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://firstarchve.github.io"/>
     <link rel="self" href="https://firstarchve.github.io/atom.xml"/>
@@ -141,11 +141,12 @@ OSX-Patcher：<br>
 <h2 align="center">后记</h2>
 <p>如果没看懂，却有有需求的话，就也可以去看一下我在b站的视频，会更详细:</p>
 <iframe src="//player.bilibili.com/player.html?aid=201321584&bvid=BV1az411v78V&cid=209770032&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-https://www.bilibili.com/video/BV1az411v78V/
-或者看我在b站的专栏（但是跟这个一模一样):
-https://www.bilibili.com/read/cv7111850
-有过有帮到你的话，就...就...这是我的个人博客又不是b站...没有点赞...
-算了，记心里就好了！
-最后还要感谢一下破解程序的开发者，有能力也可以到他们的github上去支持他们一下，毕竟如果没有动力他们不做了就不好了嘛...]]></content>
+<p>https://www.bilibili.com/video/BV1az411v78V/<br>
+或者看我在b站的专栏（但是跟这个一模一样):<br>
+https://www.bilibili.com/read/cv7111850<br>
+有过有帮到你的话，就...就...这是我的个人博客又不是b站...没有点赞...<br>
+算了，记心里就好了！<br>
+最后还要感谢一下破解程序的开发者，有能力也可以到他们的github上去支持他们一下，毕竟如果没有动力他们不做了就不好了嘛...</p>
+]]></content>
     </entry>
 </feed>
