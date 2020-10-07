@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>树莓派4b安装 Windows ON ARM教程 | FirstArchve的主页</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://firstarchve.gitee.io//favicon.ico?v=1602066248719">
+<link rel="stylesheet" href="https://firstarchve.gitee.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="本专栏用到的资源链接：https://firstarchve.lanzoui.com/iww1Wh8rgjc
+资源如若失效请私信，我会补（如果还有的话）。
+正文开始
+第一步：资源准备
+链接里的压缩文件（废话），然后解压，解压之后应该是这样的..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://firstarchve.gitee.io/">
+        <img src="https://firstarchve.gitee.io//images/avatar.png?v=1602066248719" class="site-logo">
+        <h1 class="site-title">FirstArchve的主页</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/FirstArchve" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://www.zhihu.com/people/first-archive" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      死宅一枚~~
+    </div>
+    <div class="site-footer">
+      Powered by FirstArchve | <a class="rss" href="https://firstarchve.gitee.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">树莓派4b安装 Windows ON ARM教程</h2>
+            <div class="post-date">2020-10-07</div>
+            
+              <div class="feature-container" style="background-image: url('https://firstarchve.gitee.io//post-images/shu-mei-pai-4b-an-zhuang-windows-on-arm-jiao-cheng.webp')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>本专栏用到的资源链接：https://firstarchve.lanzoui.com/iww1Wh8rgjc</p>
+<p>资源如若失效请私信，我会补（如果还有的话）。</p>
+<h2>正文开始</h2>
+<h3>第一步：资源准备</h3>
+<p>链接里的压缩文件（废话），然后解压，解压之后应该是这样的：<img src="https://firstarchve.gitee.io//post-images/1602065347958.webp" alt="" loading="lazy"><br>
+没错，解压之后还是有两个压缩包，再解压：<img src="https://firstarchve.gitee.io//post-images/1602065393986.webp" alt="" loading="lazy"><br>
+最后把那个数字开头的文件夹放到c盘里的一个没有空格的路径里，资源的准备就完了！</p>
+<h3>第二步：下载并编译Windows ON ARM</h3>
+<p>打开那个一堆数字开头的文件夹：<img src="https://firstarchve.gitee.io//post-images/1602065477892.webp" alt="" loading="lazy"><br>
+找到这个文件：<img src="https://firstarchve.gitee.io//post-images/1602065508358.webp" alt="" loading="lazy"><br>
+右键，以管理员身份运行：<img src="https://firstarchve.gitee.io//post-images/1602065525738.webp" alt="" loading="lazy"><br>
+然后就会开始下载和编译，这个过程是看网速的还有你电脑配置的，我电脑8g内存，i7-4600u处理器大概用了一个小时。<br>
+<img src="https://firstarchve.gitee.io//post-images/1602065551571.webp" alt="" loading="lazy"><br>
+中间一定要保证网络不能断。最后完成之后文件夹里应该是这样的：<img src="https://firstarchve.gitee.io//post-images/1602065595936.webp" alt="" loading="lazy"><br>
+完成之后里面会有一个生成的iso镜像，装过系统的应该知道这个，等会要用的。<img src="https://firstarchve.gitee.io//post-images/1602065626630.webp" alt="" loading="lazy"><br>
+最后偷偷告诉你们如果下载过程中断了，重新打开可以断点续传哦。</p>
+<h3>第三步：安装系统</h3>
+<p>把你的tf卡插入电脑，打开之前解压的这个文件夹：<img src="https://firstarchve.gitee.io//post-images/1602065739469.webp" alt="" loading="lazy"><br>
+打开之后:<img src="https://firstarchve.gitee.io//post-images/1602065768187.webp" alt="" loading="lazy"><br>
+打开“WoR.exe”。<img src="https://firstarchve.gitee.io//post-images/1602065794894.webp" alt="" loading="lazy"><br>
+选择语言，下一步。<img src="https://firstarchve.gitee.io//post-images/1602065818060.webp" alt="" loading="lazy"><br>
+在storage drive上选择你的tf卡，设备类型选择树莓派4。<img src="https://firstarchve.gitee.io//post-images/1602065856655.webp" alt="" loading="lazy"><br>
+点击圈出来的按钮，然后选择上一步生成的镜像文件，选好之后windowws版本就会自动填写。<img src="https://firstarchve.gitee.io//post-images/1602065884476.webp" alt="" loading="lazy"><br>
+驱动程序选择联网下载。<img src="https://firstarchve.gitee.io//post-images/1602065912253.webp" alt="" loading="lazy"><br>
+uefi固件也选择联网下载。<br>
+配置界面什么都不要改，直接下一步，安装界面就直接点安装。</p>
+<h3>第四步：启动操作系统</h3>
+<p>将tf卡插入树莓派，启动，然后会卡进度条，这个属于正常现象，等待15分钟到45分钟就行了（第一次启动才这么慢，以后开机都在1分钟左右）。<img src="https://firstarchve.gitee.io//post-images/1602065976494.webp" alt="" loading="lazy"><br>
+等着，然后会看到这个画面：<img src="https://firstarchve.gitee.io//post-images/1602066011558.webp" alt="" loading="lazy"><br>
+有内味了!<br>
+继续等待，然后就会：<img src="https://firstarchve.gitee.io//post-images/1602066048325.webp" alt="" loading="lazy"><br>
+等一会以后它会重启，然后再次卡进度条，等着。<img src="https://firstarchve.gitee.io//post-images/1602066067522.webp" alt="" loading="lazy"><br>
+梅开二度!<br>
+然后就是安装windows10的oobe了，这个正常设置就行了<img src="https://firstarchve.gitee.io//post-images/1602066091359.webp" alt="" loading="lazy"><br>
+<img src="https://firstarchve.gitee.io//post-images/1602066112505.webp" alt="" loading="lazy"><br>
+(这可能需要几世纪(DOGE))<br>
+之后就可以进入windows的桌面了：<img src="https://firstarchve.gitee.io//post-images/1602066140882.webp" alt="" loading="lazy"><br>
+我是2g版本的树莓派4，感觉很流畅，提示：按以下方法配置后，系统运行流畅度明显有所改善：此电脑-右键-属性-高级系统设置-性能-调整为最佳性能-应用</p>
+<p>已知BUG：无线网卡不能用，但是可以插网线。扬声器不能用，但是接音响或耳机就行了。</p>
+<p>本人可能以后会更更多树莓派的博客，如果你也玩树莓派的话，可以收藏一下我的个人主页哦！</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://firstarchve.gitee.io/ru-he-zai-jiu-de-mac-shang-an-zhuang-bu-jian-rong-de-xin-xi-tong/">
+                  <h3 class="post-title">
+                    如何在旧的mac上安装不兼容的新系统?
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
