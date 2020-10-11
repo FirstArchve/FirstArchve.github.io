@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://firstarchve.gitee.io/</id>
     <title>FirstArchve的主页</title>
-    <updated>2020-10-07T10:24:13.927Z</updated>
+    <updated>2020-10-11T09:19:49.041Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://firstarchve.gitee.io/"/>
     <link rel="self" href="https://firstarchve.gitee.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://firstarchve.gitee.io/images/avatar.png</logo>
     <icon>https://firstarchve.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, FirstArchve的主页</rights>
+    <entry>
+        <title type="html"><![CDATA[小米多看电子书-在windows7或XP上用USB线连接后在"计算机"里找不到电子书图标解决方法]]></title>
+        <id>https://firstarchve.gitee.io/xiao-mi-duo-kan-dian-zi-shu-zai-windows7-huo-xp-shang-yong-usb-xian-lian-jie-hou-zai-ji-suan-ji-li-zhao-bu-dao-dian-zi-shu-tu-biao-jie-jue-fang-fa/</id>
+        <link href="https://firstarchve.gitee.io/xiao-mi-duo-kan-dian-zi-shu-zai-windows7-huo-xp-shang-yong-usb-xian-lian-jie-hou-zai-ji-suan-ji-li-zhao-bu-dao-dian-zi-shu-tu-biao-jie-jue-fang-fa/">
+        </link>
+        <updated>2020-10-11T09:10:29.000Z</updated>
+        <content type="html"><![CDATA[<p>资源链接：<br>
+驱动人生7.1：https://firstarchve.lanzoui.com/ifLR0hcad9g</p>
+<h2>正文开始</h2>
+<p>(提示：我是用windows10演示的，但是在windows7和xp上操作一样）<br>
+下载资源，下载下来是一个压缩包：<img src="https://firstarchve.gitee.io//post-images/1602407541832.webp" alt="" loading="lazy"><br>
+解压后打开文件夹：<img src="https://firstarchve.gitee.io//post-images/1602407534510.webp" alt="" loading="lazy"><br>
+运行里面的DriveTheLife.exe。<img src="https://firstarchve.gitee.io//post-images/1602407569918.webp" alt="" loading="lazy"><br>
+将电纸书通过USB线连接到电脑，然后不要动电子书，它是就默认充电模式。在驱动人生的外设驱动标签，给安卓-EPD106设备(https://firstarchve.gitee.io//post-images/1602407615991.webp)<br>
+然后在电子书上修改USB模式为传输文件模式。然后在驱动人生的外设驱动标签中会出现安卓-USB Composite Device，给它安装驱动：<img src="https://firstarchve.gitee.io//post-images/1602407643155.webp" alt="" loading="lazy"><br>
+只要刚才的两个驱动都安装成功并显示驱动正常，此时，计算机里面就应该已经出现了你的电子书图标。如果刚才的两个驱动都安装成功并显示驱动正常，但是没有出现你的电子书图标，试着把usb线重新插一下或者重启一下电脑。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[树莓派4b安装 Windows ON ARM教程]]></title>
         <id>https://firstarchve.gitee.io/shu-mei-pai-4b-an-zhuang-windows-on-arm-jiao-cheng/</id>
